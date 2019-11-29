@@ -7,5 +7,7 @@ import App from './App';
 import DamApp from './DamApp';
 import {name as appName} from './app.json';
 import 'react-native-gesture-handler';
+import MyApp from './MyApp';
+import Rubros from './rubros/Rubros';
 
-AppRegistry.registerComponent(appName, () => DamApp);
+AppRegistry.registerComponent(appName, () => Rubros);
